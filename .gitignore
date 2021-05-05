@@ -1,2 +1,5 @@
-./node_modules
-./devcontainer
+#Node modules
+node_modules
+
+#for visual studio code
+.devcontainer
