@@ -1,0 +1,29 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "0.0.2",
+        "title": "deep-gambit backend CRUD",
+        "description": "Backend API",
+        "license": {
+            "name": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+        }
+    },
+    "host": "localhost:8001",
+    "basePath": "/",
+    "tags": [
+        {
+            "name": "Matches",
+            "description": "API for get Matches in the system"
+        }
+    ],
+    "schemes": [
+        "http"
+    ],
+    "consumes": [
+        "application/json"
+    ],
+    "produces": [
+        "application/json"
+    ]
+}

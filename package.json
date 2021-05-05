@@ -1,0 +1,13 @@
+{
+  "name": "turn_based_game",
+  "version": "0.0.1",
+  "description": "Backend made for 4 in a line",
+  "main": "app.js",
+  "author": "Alejandro Medici",
+  "private": false,
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "swagger-ui-express": "^4.1.6"
+  }
+}

@@ -1,0 +1,17 @@
+nginx:
+    build: ./nginx
+    links:
+        - backend
+    ports:
+        - "80:80"
+        -"443:443"
+    environment:
+        - FQDN=deep-gambit.com
+
+backend:
+    build: ./nodejs
+    ports:
+        - "8001"
+    environment:
+        - MODE=prod
+        
