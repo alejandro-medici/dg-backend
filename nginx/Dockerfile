@@ -1,5 +1,5 @@
 # Set nginx base image
-FROM nginx:1
+FROM nginx:stable
 
 # File Author / Maintainer
 LABEL maintainer="Alejandro Medici <alejandro.medici@nextiteration.com.ar>"
